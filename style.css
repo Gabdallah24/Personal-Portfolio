@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#welcome-section{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    min-height: 55vh;
+    padding-top: 45vh;
+}
+
+h2{
+    text-align: center;
+}
+
+.project{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid lightblue;
+    height: 220px;
+    width: 280px;
+    margin: 50px 100px;    
+}
+
+.project-pic{
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid black;
+}
+
+#projects{
+    text-align: center;
+}
+
+.contact-methods {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    margin: 30px 35px 45px 35px;
+    list-style-type: none;
+    border: 2px solid rgb(6, 6, 44);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #2e7b9e;
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    background-color: darkslategray;
+}
+
+#contact-heading{
+    padding: 40px 0px;
+}
+
+@media only screen and (max-width: 367px) {
+    .contact-methods {
+        display: inline;
+    }
+}
